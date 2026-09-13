@@ -1,0 +1,137 @@
+/* =========================
+   GLOBAL
+   ========================= */
+
+.main {
+    background-color: #0f0f0f;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+.main-title {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #999999;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+
+
+/* =========================
+   SELECT BOX
+   ========================= */
+
+div[data-baseweb="select"] > div {
+    background-color: #1c1c1c;
+    border: 1px solid #444;
+    border-radius: 10px;
+    color: white;
+    min-height: 45px;
+}
+
+div[data-baseweb="select"] span {
+    color: white;
+}
+
+label {
+    color: #dddddd !important;
+    font-weight: 600;
+}
+
+
+/* =========================
+   BUTTON
+   ========================= */
+
+.stButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.stButton > button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.stButton > button:hover {
+    background-color: #b20710;
+    color: white;
+    transform: scale(1.03);
+}
+
+
+/* =========================
+   RECOMMENDATION TITLE
+   ========================= */
+
+.recommend-title {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   MOVIE CARD
+   ========================= */
+
+.movie-card {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 8px;
+    transition: 0.25s;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* =========================
+   MOVIE TITLE
+   ========================= */
+
+.movie-title {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+/* =========================
+   POSTER
+   ========================= */
+
+[data-testid="stImage"] img {
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+[data-testid="stImage"] img:hover {
+    transform: translateY(-5px);
+}
