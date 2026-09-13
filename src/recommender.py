@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import pickle
 
-def recommand(movie):
+def recommend(movie):
     index = movies[movies["title"] == movie].index[0]
     distance = sorted(list(enumerate(similarity[index])), reverse=True, key= lambda vector : vector[1])
     for i in distance[0:5]:
