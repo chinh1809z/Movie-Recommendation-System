@@ -4,7 +4,7 @@ Hệ thống gợi ý phim dựa trên nội dung (**Content-Based Filtering**),
 
 ## 🖼️ Demo
 
-![Demo](assets/demo.png)
+![Demo](assets/web_demo.png)
 
 Người dùng chọn phim từ dropdown → bấm **Show Recommend** → hệ thống hiển thị danh sách các phim tương tự kèm poster.
 
@@ -117,10 +117,7 @@ File `dataset/movies.csv` chứa thông tin các bộ phim dùng để huấn lu
 - Triển khai (deploy) ứng dụng lên Streamlit Cloud / Render / Heroku
 - Thêm chức năng tìm kiếm nâng cao, lọc theo thể loại/năm phát hành
 
-## 📄 License
-
-Dự án được phát hành theo giấy phép MIT. Xem chi tiết tại file `LICENSE` (nếu có).
 
 ## 🙋‍♂️ Tác giả
 
-- Phạm Trung Chính – [GitHub](https://github.com/<username>)
+- Phạm Trung Chính – [GitHub](https://github.com/chinh1809z)
